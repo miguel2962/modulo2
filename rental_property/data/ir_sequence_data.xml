@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2019 OpenSynergy Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl-3.0) -->
+<odoo>
+    <data noupdate="1">
+        <record id="sequence_rental_property" model="ir.sequence">
+            <field name="name">Rental Property</field>
+            <field name="padding">6</field>
+            <field name="prefix">RENT-PRO/%(y)s/</field>
+            <field name="number_increment" eval="1"/>
+        </record>
+    </data>
+</odoo>
